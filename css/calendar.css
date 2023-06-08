@@ -1,0 +1,28 @@
+#calendarTitle, .nav-table, #footer1 {
+  display: none;
+}
+
+.st-dtitle > span {
+  color: white;
+}
+
+.mv-dayname {
+  color: white;
+}
+
+.st-dtitle.st-dtitle-today > span {
+  color: black;
+}
+
+td.st-bg.st-bg-today, td.st-bg.st-bg-td-last{
+  background: linear-gradient(to bottom, gold, rgba(0, 0, 0, 0));
+}
+
+body {
+  background: rgba(0,0,0,0) !important;
+}
+
+
+#mvDaynamesTable, .st-c.st-s, .st-c, .month-row, #mvEventContainer2, .mv-container, #viewContainer1, #calendarContainer1, .calendar-container, .st-grid > tbody > tr > .st-dtitle {
+  background: rgba(0,0,0,0) !important;
+}
